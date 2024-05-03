@@ -1,0 +1,456 @@
+* {
+    box-sizing: border-box;
+
+}
+
+
+    body {
+        margin: 0;
+        width: 100%;
+        font-family: "Karla", Arial, sans-serif;
+    }
+
+    .container-1 {
+        width: 100%;
+        margin: 0;
+        display: flex;
+    }
+
+    /* Navigation bar styling */
+    .container-1 .container-1-header {
+        position: fixed;
+        width: 250px;
+        top: 28%;
+        left: 0;
+        bottom: 0;
+        overflow-y: auto;
+        z-index: 1;
+    }
+
+    .container-1 .container-1-header nav li {
+        margin-bottom: 35px;
+        width: 130px;
+        padding: 0px;
+        border: none;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .container-1 .container-1-header nav li img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        outline: rgba(255, 255, 255, 0.623);
+        background: rgba(255, 255, 255, 0.623);
+
+    }
+
+    .container-1 .container-1-header nav a {
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .container-1 .container-1-header nav li .hoverable {
+        margin-left: 5px;
+        display: none;
+    }
+
+    /* Mouse hovering styling part */
+    .container-1 .container-1-header li:hover {
+        border: 1px solid white;
+        padding: 10px;
+        border-radius: 30px;
+        background-color: blue;
+        color: white;
+    }
+
+    .container-1 .container-1-header li:hover .hoverable {
+        display: inline-block;
+        color: white;
+    }
+
+    .container-1 .container-1-header li:hover img {
+        background: white;
+    }
+
+    .container-1 .content-container {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    /* Nsvigation styling closed */
+
+    /* Content-container styling */
+    .container-1 .content-container {
+        margin-top: 15%;
+        margin-left: 15%;
+    }
+
+
+    .container-1 .container-1-content {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin: 10% 15%;
+    }
+
+    .container-1 .container-1-content .image-container-1 {
+        width: 50%;
+    }
+
+    .container-1 .container-1-content .image-container-1 img {
+        border-radius: 5px;
+        width: 450px;
+        height: 510px;
+
+    }
+
+    .container-1 .container-1-content .image-container-1 .icon-container img {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+
+
+    }
+
+    .container-1 .container-1-content .text-content {
+        width: 98%;
+        margin-left: 35px;
+        padding: 5px;
+    }
+
+    .container-1 .container-1-content .text-content .inner-head {
+        display: flex;
+    }
+
+    .container-1 .container-1-content .text-content .inner-head .about-head-1 {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        -webkit-transform-origin: left top 0;
+        -ms-transform-origin: left top 0;
+        transform-origin: left top 0;
+        margin-left: 94px;
+        margin-top: 28px;
+        font-size: 12px;
+        letter-spacing: 4px
+    }
+
+    .container-1 .container-1-content .text-content .about-header {
+        margin-left: 35px;
+        line-height: 50px;
+        font-size: 25px;
+        margin-top: 0;
+    }
+
+    .container-1 .container-1-content .text-content .about-header h1 {
+        font-weight: normal;
+        font-family: serif;
+
+    }
+
+    .container-1 .container-1-content .text-content .inner-head .about-para {
+        font-size: 15px;
+        line-height: 30px;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        margin-left: -50px;
+        font-family: "Karla", Arial, sans-serif;
+        color: gray;
+
+    }
+
+    .container-1 .container-1-content .text-content .inner-head .about-para button {
+        padding: 8px;
+        border-radius: 10px;
+        background: blue;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .container-1 .container-1-content .text-content .inner-head .icon-container img {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+
+    /* container-2 styling */
+    .container-2 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .container-2 .skill-container-2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    .container-2 .skill-container-2 .skill-left-section {
+        width: 45%;
+        margin-left: 15%;
+
+    }
+
+    .container-2 .skill-container-2 .skill-left-section h1 {
+        font-weight: normal;
+        font-family: "Karla", Arial, sans-serif;
+        font-size: 38px;
+        letter-spacing: 2px;
+
+    }
+
+    .container-2 .skill-container-2 .skill-left-section img {
+        width: 650px;
+        height: 460px;
+    }
+
+    .container-2 .skill-container-2 .skill-right-section {
+        width: 40%;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .container-2 .skill-container-2 .skill-right-section img {
+        width: 450px;
+        height: 450px;
+        opacity: 0.65;
+    }
+
+    /* container-3 styling */
+    .container-3 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .container-3 .project-container-3 {
+        width: 100%;
+        display: flex;
+        margin-top: 84px;
+        margin-bottom: 100px;
+
+
+    }
+
+    .container-3 h1 {
+        margin: 0;
+        height: 84px;
+        text-align: center;
+        font-weight: normal;
+        font-family: "Karla", Arial, sans-serif;
+        font-size: 38px;
+        letter-spacing: 2px;
+
+    }
+
+    .container-3 .project-container-3 .left-section {
+        width: 740px;
+        height: 664px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 7px;
+        border-radius: 12px;
+        margin-left: 15%;
+
+    }
+
+    .container-3 .project-container-3 .left-section img {
+        width: 725px;
+        height: 450px;
+        border-radius: inherit;
+    }
+
+    .container-3 .project-container-3 .left-section p {
+        font-size: 17px;
+        letter-spacing: 1px;
+        font-family: "Karla", Arial, sans-serif;
+        text-align: center;
+        line-height: 28px;
+
+    }
+
+    .container-3 .project-container-3 button {
+        background-color: blue;
+        border-radius: 10px;
+        color: white;
+        padding: 10px;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .container-3 .project-container-3 button:hover {
+        background-color: grey;
+        color: blue;
+        font-size: 19px;
+    }
+
+    .container-3 .project-container-3 .right-section {
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-right: 50px;
+
+    }
+
+    .container-3 .project-container-3 .right-section .part-1 {
+        width: 300px;
+        height: 345px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 7px;
+        border-radius: 12px;
+    }
+
+    .container-3 .project-container-3 .right-section .part-1 img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .container-3 .project-container-3 .right-section .part-1 p {
+        font-size: 17px;
+        letter-spacing: 1px;
+        font-family: "Karla", Arial, sans-serif;
+        text-align: center;
+        line-height: 28px;
+
+    }
+
+    .container-3 .project-container-3 .right-section .part-2 {
+        width: 300px;
+        height: 304px;
+        margin-top: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 7px;
+        border-radius: 12px;
+    }
+
+    .container-3 .project-container-3 .right-section .part-2 h1 {
+        margin: 0;
+        height: 84px;
+        text-align: center;
+        font-weight: normal;
+        font-family: "Karla", Arial, sans-serif;
+        font-size: 25px;
+        letter-spacing: 2px;
+
+    }
+
+    .container-3 .project-container-3 .right-section .part-2 p {
+        font-size: 17px;
+        letter-spacing: 1px;
+        font-family: "Karla", Arial, sans-serif;
+        text-align: center;
+        line-height: 28px;
+
+    }
+
+    .container-4 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .container-4 h1 {
+        height: 84px;
+        text-align: center;
+        font-weight: normal;
+        font-family: "Karla", Arial, sans-serif;
+        font-size: 37px;
+        letter-spacing: 2px;
+    }
+
+    .container-4 .contact-me-content {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .container-4 .contact-me-content .left-part {
+        width: 750px;
+        height: 325px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 50px;
+        border-radius: 12px;
+        text-align: center;
+        margin-left: 12%;
+
+    }
+
+    .container-4 .contact-me-content .left-part .input-group {
+        margin-bottom: 10px;
+        margin-top: 50px;
+        width: 580px;
+        height: 42px;
+
+    }
+
+    .container-4 .contact-me-content .left-part .input-group input {
+        width: 500px;
+        height: 41px;
+        border: none;
+        border-bottom: 2px solid grey;
+        padding: 10px;
+    }
+
+    .container-4 .contact-me-content .left-part button {
+        border: none;
+        border-radius: 12px;
+        background-color: green;
+        color: white;
+        padding: 8px;
+        width: 100px;
+        height: 45px;
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    .container-4 .contact-me-content .left-part button:hover {
+        background-color: grey;
+        color: blue;
+        font-size: 20px;
+    }
+
+    .container-4 .contact-me-content .right-part {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 50px;
+        border-radius: 50%;
+
+    }
+
+    .container-4 .contact-me-content .right-part .container-4-header {
+        font-family: "Karla", Arial, sans-serif;
+        letter-spacing: 1px;
+
+    }
+
+    .container-4 .contact-me-content .right-part .container-4-header h3 {
+        height: 34px;
+        text-align: center;
+        font-weight: normal;
+        font-family: "Karla", Arial, sans-serif;
+        font-size: 25px;
+        letter-spacing: 2px;
+
+    }
+
+    .container-4 .contact-me-content .right-part .container-4-header dt {
+        margin: 5px;
+
+
+
+    }
+
+    footer {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    footer span {
+        font-size: 20px;
+        color: gray;
+        font-style: italic;
+    }
